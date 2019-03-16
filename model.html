@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coffee</title>
+	<link rel="stylesheet" href="dist/css/bootstrap.css">
+	<link rel="stylesheet" href="dist/fa/css/all.css">
+	<link rel="stylesheet" href="dist/css/carousel.css">
+	<link rel="stylesheet" href="b2.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="dist/js/jquery.min.js"></script>
+	<script src="dist/js/bootstrap.js"></script>
+	<style> 
+    .img-responsive{
+    	border:2px solid #000;
+    	border-color: pink;
+    	border-radius: 0px;
+    }
+    .footer{
+    	background-color: ;
+    	border-bottom:1px solid;
+    	border-top: 1px solid;
+    }
+    .carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+	</style>
+</head>	
+<body class="b">
+	<nav class="navbar navbar-fixed-top navbar-dark style="background-color: #e3f2fd;">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="modal.html"><u>Cafe</u></a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+					  <li><a href="menu.html"></i>Cafe Menu</a></li>
+					  <li><a href="about.html">Shop</a></li>
+					  <li><a href="contact.html">Store Locator</a></li>
+					  <li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+						Our Services<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+							  <li><a href="software.html">Software Services</a></li>
+							  <li><a href="customer.html">Customer Services</a></li>
+							  <li><a href="email.html">e-Mail Marketing</a></li>						  
+							</ul>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">					  
+					  <li><a class="nav-link" href="#" data-toggle="modal" data-target="#modelLogin"></i>Login</a></li>
+					  <li><a class="nav-link" href="#" data-toggle="modal" data-target="#myModal"></i>Sign Up</a></li>
+					</ul>
+			</div><!--/.nav-collapse -->
+		</div><!--/.container-fluid -->
+	</nav> 	
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="1.jpg" alt="Los Angeles" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Los Angeles</h3>
+          <p>LA is always so much fun!</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="2.jpg" alt="Chicago" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Chicago</h3>
+          <p>Thank you, Chicago!</p>
+        </div>
+      </div>    
+      <div class="item">
+        <img src="3.jpg" alt="New York" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>New York</h3>
+          <p>We love the Big Apple!</p>
+        </div>
+      </div>  
+    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="item-cup container">
+  	<div class="row">
+  		<h1>Newly Added...</h1>
+  		<div class="col-sm-3"> 
+  		<img src="cup1.jpg" class="img-responsive margin" style="100%"> 
+  		<p>Cream with chocalate Base</p>	
+  		</div>
+  		<div class="col-sm-3">
+  			<img src="cup5.jpg" class="img-responsive margin" style="100%">
+  			<p>Muffin Baked Chocalate</p>
+  		</div>
+  		<div class="col-sm-3">
+  			<img src="cup3.jpg" class="img-responsive margin" style="100%">
+  			<p>Unicorn Cake</p>
+  		</div>
+  		<div class="col-sm-3">
+  			<img src="cup4.jpg" class="img-responsive margin" style="100%">
+  			<p>Red Velvet</p>
+  		</div>
+		</div>
+	</div>
+  	<div class="item-store container-fluid bg-3 text-center">
+  		<div class="row">
+  		<h1>Our Stores</h1>
+  			<br>
+  		<div class="col-sm-4"> 			
+  			<img src="4.jpg" class="img-responsive margin" style="100%">
+  		</div>
+  		<div class="col-sm-4"><span class="border border-danger"></span>
+  			<img src="5.jpg" class="img-responsive margin" style="100%">
+  		
+  		</div>
+  		<div class="col-sm-4">
+  			<img src="6.jpg" class="img-responsive margin" style="100%">
+  		</div>
+  	</div>
+  </div><br>
+  <div class="container-fluid text-center">
+  		<div class="row">
+	  	<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-google"></a>
+		<a href="#" class="fa fa-linkedin"></a>
+		<a href="#" class="fa fa-youtube"></a>
+		<a href="#" class="fa fa-instagram"></a>		
+		</div>
+	</div>
+  
+  	<div class="container-fluid footer">
+				<div class="row">
+					<div class="col-sm-4">
+						<h4>Quik Link</h4>
+						<ul>
+							<li><a href="#">Cafe Menu</a></li>
+							<li><a href="#">Store Locator</a></li>	
+							<li><a href="#">About Us</a></li>
+						</ul>						
+					</div>
+					<div class="col-sm-4">
+						<h4>Quik Link</h4>
+						<ul>
+							<li><a href="#">Cafe Menu</a></li>
+							<li><a href="#">Store Locator</a></li>	
+							<li><a href="#">About Us</a></li>
+						</ul>	
+
+					</div>
+					<div class="col-sm-4">	
+					<h4>Quik Link</h4>
+						<ul>
+							<li><a href="#">Cafe Menu</a></li>
+							<li><a href="#">Store Locator</a></li>	
+							<li><a href="#">About Us</a></li>
+						</ul>							
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+					<!-- Button trigger modal -->					
+					<!-- Modal -->
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+					data-backdrop="static" data-keyboard="false">
+					  <div class="modal-dialog modal-md" >
+						<div class="modal-content">						
+							<div class="modal-header bg-danger">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+								<h4 class="modal-title" id="myModalLabel">Sign Up</h4>
+							</div>						  
+							<div class="modal-body">
+								<div class="row form-group">
+									<div class="col-sm-6">
+										<input type="text" class="form-control input-sm" placeholder="Name">
+									</div>
+									<div class="col-sm-6">
+										<input type="text" class="form-control input-sm" placeholder="Mobile No">
+									</div>
+								</div>								
+								<div class="row form-group">
+									<div class="col-sm-6">
+										<input type="text" class="form-control input-sm" placeholder="Email Id">
+									</div>
+									<div class="col-sm-6">
+										<input type="password" class="form-control input-sm" placeholder="Password">
+									</div>
+								</div>								
+								<div class="row form-group">
+									<div class="col-sm-6">
+										<select class="form-control">
+											<option>State</option>
+											<option>AP</option>
+											<option>KA</option>
+										</select>
+									</div>
+									<div class="col-sm-6">
+										<select class="form-control">
+											<option>City</option>
+											<option>Bangalore</option>
+											<option>Chenni</option>
+										</select>
+									</div>
+								</div>
+								<div class="row form-group">
+									<div class="col-sm-12">
+										<textarea class="form-control" placeholder="Address"></textarea>
+									</div>
+								</div>
+								<div class="row form-group">
+									<div class="col-sm-12 text-center">
+										<button type="submit" class="btn btn-info">Register</button>
+										<button type="reset" class="btn btn-info">Reset</button>
+									</div>
+								</div>
+							</div><!---model body end here---->
+							<div class="modal-footer">
+								<div class="text-center">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									<button type="button" class="btn btn-primary">Save changes</button>
+									<hr>
+									<a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modelLogin"> Login </a>
+								</div>
+						    </div>
+						</div>
+					 </div>
+				</div>
+					<!----MODEL END here----->					
+					<!-- Modal -->
+				<div class="modal fade" id="modelLogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static" data-keyboard="false">
+					<div class="modal-dialog modal-sm" role="document">
+						<div class="modal-content">
+							<div class="modal-header bg-danger">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel">Login</h4>
+							</div><!---model header---end---->
+							<div class="modal-body">
+								<div class="form-group">
+									<label>Email Id</label>
+									<input type="text" class="form-control input-sm">
+								</div>
+								<div class="form-group">
+									<label>Password</label>
+									<input type="password" class="form-control input-sm">
+								</div>								
+							</div><!---model Body---end---->
+							<div class="modal-footer">
+								<div class="text-center">
+									<button type="button" class="btn btn-success" >Login</button>
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+									<hr>
+									<a href="#" data-dismiss="modal" data-toggle="modal" data-target="#myModal"> Sign Up </a>
+								</div>
+							</div><!---model footer---end---->
+						</div><!---model content---end---->
+					 </div>
+				</div><!----MODEL END here----->					
+				</div><!----12 end here---->
+			</div><!----row end here------->
+		</div><<!--container end--->		
+
+</body>
+</html>
